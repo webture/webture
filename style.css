@@ -1,83 +1,47 @@
-/* style.css */
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Webture</h1>
+    <p>Teknoloji, Finans ve Daha Fazlası</p>
+  </header>
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
-}
+  <nav>
+    <ul>
+      <li><a href="#">Anasayfa</a></li>
+      <li><a href="#">Hakkımızda</a></li>
+      <li><a href="#">İletişim</a></li>
+    </ul>
+  </nav>
 
-header {
-  background-color: #0a0a23;
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
-}
+  <main>
+    <section class="intro">
+      <p>Webture'a hoş geldiniz! Yakında teknoloji ve finans dünyasından haberlerle buradayız.</p>
+    </section>
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  letter-spacing: 1px;
-}
+    <section class="contact">
+      <h2>İletişim</h2>
+      <p>Bize ulaşmak için <a href="mailto:readwebture@gmail.com">readwebture@gmail.com</a> adresine e-posta gönderebilirsiniz.</p>
+    </section>
 
-header p {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  color: #ccc;
-}
+    <section class="social">
+      <h2>Sosyal Medya</h2>
+      <p>
+        <a href="https://instagram.com/thewebture" target="_blank">Instagram</a>
+        <a href="https://x.com/thewebture" target="_blank">X</a>
+        <a href="https://youtube.com/@webture" target="_blank">YouTube</a>
+      </p>
+    </section>
+  </main>
 
-nav {
-  background-color: #ffffff;
-  border-bottom: 1px solid #ddd;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #0a0a23;
-  font-weight: bold;
-}
-
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-.intro {
-  margin-bottom: 2rem;
-}
-
-.contact a {
-  color: #0a0a23;
-  text-decoration: underline;
-}
-
-.social a {
-  margin-right: 1rem;
-  text-decoration: none;
-  color: #0077cc;
-  font-weight: 500;
-}
-
-footer {
-  background-color: #f0f0f0;
-  color: #666;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  border-top: 1px solid #ddd;
-}
-
+  <footer>
+    <p>&copy; 2025 Webture</p>
+  </footer>
+</body>
+</html>
